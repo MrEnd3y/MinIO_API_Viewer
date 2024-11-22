@@ -17,7 +17,7 @@ MinIO API Viewer is a simple application designed for quickly counting the numbe
 
 1. **Install  `pandas`, `gradio` and  `flask`** (if will any troubles use venv): 
 ```bash 
-pip install pandas, gradio, flask
+pip install pandas gradio flask
 ```
 ### Start App
 
