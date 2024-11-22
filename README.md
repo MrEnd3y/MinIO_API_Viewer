@@ -37,9 +37,9 @@ You can then access the application by opening your browser and navigating to: <
 ```bash
 curl -k -X POST http://localhost:9002/ -H 'Content-Type: application/json' -d '{"name": "MinIO", "message": "hello!"}'
 ```
-## Configuring MinIO for Webhook
+## Configuring MinIO webhook
 ---
-To set up MinIO for webhook notifications, enter the following URL in the MinIO webhook settings:
+To set up MinIO webhook notifications, enter the following URL in the MinIO webhook settings:
 <http://127.0.0.1:9002>
 
 ![img3](imgs/img3.JPG)
