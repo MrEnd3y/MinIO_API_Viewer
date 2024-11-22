@@ -9,8 +9,8 @@ MinIO API Viewer is a simple application designed for quickly counting the numbe
 - **Data Exploration**: Examine the structure of data from S3 API calls. 
 - **Customizable View**: Adjust the viewing direction and size of the observation window. - Use the "-" sign to invert the received data. - Set the observation window size with a numeric value (default is -10 to focus on new data).
 
-![picture_1]()
-[picture_2]()
+![img1](imgs/img1.JPG)
+![img1](imgs/img2.JPG)
 ## Getting Started
 ---
 ### Install requements
@@ -23,8 +23,8 @@ pip install pandas, gradio, flask
 
 1. **Clone the project**:
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/MrEnd3y/MinIO_API_Viewer.git
+cd MinIO_API_Viewer
 ```
 2. **Running the application**
 ```bash
@@ -42,5 +42,4 @@ curl -k -X POST http://localhost:9002/ -H 'Content-Type: application/json' -d '{
 To set up MinIO for webhook notifications, enter the following URL in the MinIO webhook settings:
 <http://127.0.0.1:9002>
 
-For example:
-![picture_3]()
+![img3](imgs/img3.JPG)
