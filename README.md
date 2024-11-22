@@ -30,7 +30,7 @@ cd MinIO_API_Viewer
 ```bash
 python app.py
 ```
-You can then access the application by opening your browser and navigating to: <http://127.0.0.1:7860/>.
+You can then access the application by opening your browser and navigating to: <http://127.0.0.1:7860/api_viewer/>.
 ### Check
 
 1. **You can easily test this by sending a simple message using`curl`:**

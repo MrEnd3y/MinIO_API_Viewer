@@ -125,7 +125,7 @@ def create_gradio_interface():
                 with gr.Column():
                     item_count = gr.Label(value=f"Amount: {DATA_COUNT}\nDATA[-10:]", container=False)  
                     window_number = gr.Number(label="Window size", value=-10, step=1) 
-                    value_slider = gr.Slider(minimum=0, maximum=10, step=1, label="Диапазон X", value=0)
+                    value_slider = gr.Slider(minimum=0, maximum=10, step=1, label="Range X", value=0)
 				
         # Buttons for updating and resetting data
         refresh_button = gr.Button("Update Data")
@@ -163,7 +163,7 @@ def signal_handler(sig, frame):
     """Signal handler for completion"""
     print("Завершение работы...")
     if 'app_ui' in globals():
-        app_ui.close()  # Закрываем интерфейс Gradio
+        app_ui.close()
     sys.exit(0)
 
 def run_flask():
