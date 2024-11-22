@@ -15,25 +15,25 @@ MinIO API Viewer is a simple application designed for quickly counting the numbe
 ---
 ### Install requements
 
-1. **Install  `pandas`, `gradio` and  `flask`** (if will any troubles use venv): 
+1. **Install  `pandas`, `gradio` and  `flask` (if will any troubles use venv):** 
 ```bash 
 pip install pandas gradio flask
 ```
 ### Start App
 
-1. **Clone the project**:
+1. **Clone the project:**
 ```bash
 git clone https://github.com/MrEnd3y/MinIO_API_Viewer.git
 cd MinIO_API_Viewer
 ```
-2. **Running the application**
+2. **Running the application:**
 ```bash
 python app.py
 ```
 You can then access the application by opening your browser and navigating to: <http://127.0.0.1:7860/>.
 ### Check
 
-1. **You can easily test this by sending a simple message using`curl`**:
+1. **You can easily test this by sending a simple message using`curl`:**
 ```bash
 curl -k -X POST http://localhost:9002/ -H 'Content-Type: application/json' -d '{"name": "MinIO", "message": "hello!"}'
 ```
